@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-image: url('../img/5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 90vh;
+}
+
+.titulo {
+    max-width: 1500px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
